@@ -95,7 +95,7 @@ void loop() {
   }
   //delay(100);
   //Serial.println(tic);
-  if (millis() - lastMS > 10000) {
+  if (millis() - lastMS > 30000) {
     Serial.print(tic);
     Serial.print(".");
     lastMS = millis();
